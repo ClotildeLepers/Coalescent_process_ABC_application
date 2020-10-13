@@ -24,15 +24,24 @@ The creation_kingman.py file is used to simulate descriptive statistics obtained
 
 ## A simple model for Central-Asian Human populations structured by 2 traits
 
+### Simulation program for the simple model 
+
 The files 2traits_model.zip, data_central_Asia.csv and analysis_2traits.R, correspond to application 2 presented in section 3.3.
 
 The 2traits_model.zip file allows to simulate the descriptive statistics obtained using an eco-evolutionary model taking into account geographic location and social organization of the population. 
+
+### Central Asia Human population data
 
 The data_central_Asia.csv file gives the descriptive statistics of Central Asia data given in Chaix et al (2007) and Heyer et al (2015) studies. 
 
 The file analysis_2traits.R is used to perform abc analyzes in order to check the quality of the ABC estimation of parameters, and to infer the parameters leading to the Central Asia data.
 
+### Model testing for the difference between fertility rates between the two social organizations: patrilineal and cognatic
+
+The R code analysis_CentralAsiaHumanPop.R studies the Bayesian test H0 : b0=b1 against Ha : b0<b1. The natural test statistic (see Supplementary Information G of our paper) and critical region of the test are studied. The test is then carried over the data detailed below and shows no significant difference of fertility rates between the two social organizations: patrilineal and cognatic.
+
 The archive CentralAsiaHumanPop_data.zip contains: 1) the summary data from the Central Asia Human Population (from Chaix et al. 2007, Heyer et al. 2015) 2) summary statistics of simulations under our model, for parameters drawn in the a priori distribution. Both files are necessary to run the ABC estimation methods presented in Section 3.3 of our paper.
+
 
 
 ### Ref: 
