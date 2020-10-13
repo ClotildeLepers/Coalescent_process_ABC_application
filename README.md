@@ -1,8 +1,9 @@
 # Coalescent_process_ABC_application
+
+We propose here ABC inference in population models with phylogenetical information, selection, varying population size and evolving trait structure.
+
 The Code of the repository has been used in the paper "Inference with selection, varying population size and evolving population structure: Application of ABC to a forward-backward coalescent process with interactions", by Clotilde Lepers, Sylvain Billiard, Matthieu Porte, Sylvie Méléard, Viet Chi TRAN. 
 (https://arxiv.org/abs/1910.10201) To appear in Heredity. 
-
-We propose here inference in population models with phylogenetical information, selection, varying population size and evolving trait structure.
 
 ## Dieckmann-Doebeli model for a population structured by a trait in [-1,1]
 
