@@ -32,3 +32,11 @@ The data_central_Asia.csv file gives the descriptive statistics of Central Asia 
 
 The file analysis_2traits.R is used to perform abc analyzes in order to check the quality of the ABC estimation of parameters, and to infer the parameters leading to the Central Asia data.
 
+The archive CentralAsiaHumanPop_data.zip contains: 1) the summary data from the Central Asia Human Population (from Chaix et al. 2007, Heyer et al. 2015) 2) summary statistics of simulations under our model, for parameters drawn in the a priori distribution. Both files are necessary to run the ABC estimation methods presented in Section 3.3 of our paper.
+
+
+### Ref: 
+Chaix R, Quintana-Murci L, Hegay T, Hammer M, Mobasher Z, Austerlitz F, et al. (2007).  From social to genetic structures in Central Asia. Current Biology 17: 43–48
+Heyer E, Brandenburg JT, Leonardi M, Toupance B, Balaresque P, Hegay T, et al. (2015). Patrilineal populations show more male transmission of reproductive success than cognatic populations in Central Asia, which reduces their genetic diversity. American Journal of Physical Anthropology 157: 537–543.
+Lepers C, Billiard S, Porte M, Méléard S, Tran VC (2020). Inference with selection, varying population size and evolving population structure: Application of ABC to a forward-backward coalescent process with interactions. To appear in Heredity.
+Clotilde Lepers, Sylvain Billiard, Matthieu Porte, Sylvie Méléard, Viet Chi Tran
